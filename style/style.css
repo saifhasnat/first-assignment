@@ -13,7 +13,14 @@
     font-size: 16px;
     font-weight: bold;
 }
-/* header section style */
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: #4E47FF;
+    border: 2px solid #4E47FF;
+}
+
+    /* header section style */
 .header {
     background-image: url('../Assets/Hero-bg.png');
    
@@ -295,7 +302,7 @@ main {
 .contact-content {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 4rem;
     gap: 4rem;
     flex-wrap: wrap;
@@ -342,16 +349,6 @@ main {
     resize: vertical;
 }
 
-.contact-btn {
-    background-color: #6366F1;
-    color: white;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 1rem;
-}
 
 
 
